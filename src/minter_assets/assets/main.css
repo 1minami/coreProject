@@ -1,0 +1,87 @@
+body {
+  background-color: aliceblue;
+}
+
+#nft, #collection{
+  max-width: 50vw;
+  max-height: 25vw;
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#btnConnect, #btnMint{
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  background: linear-gradient(94.95deg, #FFE701 -1.41%, #FA51D3 34.12%,
+  #10D9ED 70.19%, #52FF53 101.95%);
+  border-radius: 10px;
+  color: #fff;
+  padding: 6px 32px;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in, transform 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+#btnConnect:hover, #btnMint:hover {
+  opacity: 0.94;
+  transform: scale(1.05);
+}
+
+#principal {
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+input {
+  width: 20em;
+}
+
+#title{
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 6%;
+  margin-bottom: 20px;
+}
+.png {
+  width: 100%;
+  cursor: pointer;
+}
+
+#greeting {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  margin-bottom: 20px;
+}
