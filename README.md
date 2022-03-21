@@ -2,6 +2,8 @@
 
 ## Core project
 
+URL　https://t5n7w-yiaaa-aaaag-aackq-cai.raw.ic0.app/
+
 ## Running the project locally
 
 If you want to test your project locally, you can use the following commands:
